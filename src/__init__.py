@@ -1,3 +1,4 @@
-from BookingCLI import BookingCLI
+from src.booking_cli import BookingCLI
 
-BookingCLI()
+if __name__ == "__main__":
+    BookingCLI()

@@ -1,5 +1,5 @@
 from enum import Enum, auto
-from Booking import Luxury
+from src.booking import Luxury
 
 
 class Type(Enum):

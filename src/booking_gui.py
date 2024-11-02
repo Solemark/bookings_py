@@ -1,5 +1,5 @@
 from tkinter import Tk, Label, Entry, StringVar, Button, Checkbutton, BooleanVar
-from Booking import Luxury
+from src.booking import Luxury
 
 
 class BookingGUI:
