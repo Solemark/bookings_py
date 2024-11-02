@@ -155,7 +155,3 @@ class BookingGUI:
         self.__rooms_cost.set(str(room_cost))
         self.__garden_area_cost.set(str(garden_area_cost))
         self.__total_price.set(str(total + booking.get_luxury_cost()))
-
-
-if __name__ == "__main__":
-    BookingGUI()

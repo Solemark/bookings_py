@@ -109,7 +109,3 @@ class BookingCLI:
         """Remove a Luxury from the bookings list"""
         ID: str = input("Enter Booking ID to remove: ")
         return [booking for booking in self.bookings if booking.get_id() != ID]
-
-
-if __name__ == "__main__":
-    BookingCLI()
